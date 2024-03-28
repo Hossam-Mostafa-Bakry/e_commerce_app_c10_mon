@@ -1,0 +1,36 @@
+name: e_commerce_app_c10_mon
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - asset/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: asset/fonts/Poppins-Bold.ttf
+        - asset: asset/fonts/Poppins-SemiBold.ttf
+        - asset: asset/fonts/Poppins-Medium.ttf
+        - asset: asset/fonts/Poppins-Regular.ttf
