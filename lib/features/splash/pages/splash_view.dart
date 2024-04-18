@@ -15,7 +15,7 @@ class _SplashViewState extends State<SplashView> {
     Future.delayed(
       const Duration(seconds: 2),
       () => navigatorKey.currentState!.pushReplacementNamed(
-        PageRoutesName.login,
+        PageRoutesName.layout,
       ),
     );
     super.initState();
@@ -26,7 +26,7 @@ class _SplashViewState extends State<SplashView> {
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage("asset/images/splash_screen.png"),
+          image: AssetImage("assets/images/splash_screen.png"),
           fit: BoxFit.cover,
         ),
       ),

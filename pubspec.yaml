@@ -13,6 +13,17 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.6
+  flutter_bounceable: ^1.1.0
+  dio: ^5.4.2+1
+  dartz: ^0.10.1
+  flutter_bloc: ^8.1.5
+  bloc: ^8.1.4
+  flutter_easyloading: ^3.0.5
+  bot_toast: ^4.1.3
+  lottie: ^3.1.0
+  shared_preferences: ^2.2.2
+  animate_do: ^3.3.4
+  equatable: ^2.0.5
 
 dev_dependencies:
   flutter_test:
@@ -25,12 +36,13 @@ flutter:
   uses-material-design: true
 
   assets:
-    - asset/images/
+    - assets/images/
+    - assets/icons/
 
   fonts:
     - family: Poppins
       fonts:
-        - asset: asset/fonts/Poppins-Bold.ttf
-        - asset: asset/fonts/Poppins-SemiBold.ttf
-        - asset: asset/fonts/Poppins-Medium.ttf
-        - asset: asset/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
